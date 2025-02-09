@@ -1,0 +1,235 @@
+  /* Ubah warna teks navbar brand */
+  .navbar-brand {
+    color: #4B0082 !important;
+  }
+
+
+  .navbar-nav .nav-link {
+    color: #4c0082af !important;
+  }
+
+
+  .navbar-nav .nav-link:hover {
+    color: #800080 !important;
+  }
+
+  section {
+    padding-top: 6rem;
+  }
+
+  .jumbotron {
+    padding-top: 3rem;
+    background-color: #ffffff;
+  }
+
+  #projects {
+    background-color: #e2edff;
+  }
+
+
+  .carousel-item img {
+    border-radius: 30px;
+  }
+
+  .card {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .card-header {
+    background-color: #f0e9ff
+  }
+
+  .custom-btn {
+    padding: 12px 20px;
+    font-size: 19px;
+    border-radius: 30px;
+    min-width: 280px;
+  }
+
+  /*Pendaftaran */
+
+  /* Modal Background */
+  .modal-registration {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Form Styling */
+  .form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .form-label {
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+  }
+
+  .form-control {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .form-control.address {
+    height: 80px;
+    resize: none;
+  }
+
+  /* Package Selection */
+  .package-options {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  .package-btn {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #5d5a88;
+    background: white;
+    color: #5d5a88;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .package-btn:hover,
+  .package-btn.active {
+    background: #5d5a88;
+    color: white;
+  }
+
+  /* Submit Button */
+  .submit-btn {
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    padding: 12px;
+    background-color: #5d5a88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .submit-btn:hover {
+    background-color: #4d4a78;
+  }
+
+  /* Title Styling */
+  .modal-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .modal-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  /*Akhir Pendaftaran */
+
+
+  /* Modal Background */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Form Styling */
+  .form-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .form-label {
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+  }
+
+  .form-control {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  /* Submit Button */
+  .submit-btn {
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    padding: 12px;
+    background-color: #5d5a88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .submit-btn:hover {
+    background-color: #4d4a78;
+  }
+
+  /* Title Styling */
+  .modal-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }

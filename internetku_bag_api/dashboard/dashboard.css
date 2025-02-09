@@ -1,0 +1,32 @@
+.navbar-brand {
+    color: #4B0082 !important;
+}
+
+
+.navbar-nav .nav-link {
+    color: #4c0082af !important;
+}
+
+#informasi_akun {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+#ubah_data_akun {
+    padding-bottom: 1rem;
+}
+
+#ubah_paket {
+    padding-bottom: 5rem;
+}
+
+.account-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+    min-width: 150px;
+}
